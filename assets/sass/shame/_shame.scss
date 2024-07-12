@@ -1,0 +1,31 @@
+.logo-nav{
+    height: 40px;
+}
+
+.logo{
+    font-size: 3rem;
+    &__color-html{
+        color: $color-html;
+    }
+    &__color-css{
+        color: $color-css;
+    }
+    &__color-sass{
+        color: $color-sass;
+    }
+    &__color-bs{
+        color: $color-bs;
+    }
+    &__color-git{
+        color: $color-git;
+    }
+    &__color-gh{
+        color: $color-gh;
+    }
+    &__color-js{
+        color: $color-js;
+    }
+    &__color-vue{
+        color: $color-vue;
+    }
+}

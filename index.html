@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8e560349bd.js" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="container">
+        <row>
+            <div class="col">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <img src="assets/img/logo.png" alt="" class="logo-nav">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#habilidades">Mis habilidades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contacto">Contaacto</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </row>
+    </div>
+
+    <!-- presentacion -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 ">
+                <img src="assets/img/developer.svg" alt="" class="w-100">
+            </div>
+            <div class="col-12 col-sm-6  m-auto">
+                <h1>Soy Luis Rodriguez</h1>
+                <h2> Desarrollador FrontEnd</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perspiciatis corrupti laudantium
+                    adipisci eaque amet dignissimos, odit similique et rem laborum culpa eos, optio at, voluptatibus sed
+                    cum voluptate possimus?</p>
+                <button type="button" class="btn btn-primary">Contactame</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- habilidades -->
+    <div class="container" id="habilidades">
+        <div class="row">
+            <div class="col text-center">
+                <h2>Mis Habilidades</h2>
+            </div>
+        </div>
+        <div class="row mt-4 mb-4 d-flex justify-content-around ">
+            <div class="col-6  col-sm-1  align-items-center justify-content-center">
+                <i class="fa-brands fa-html5 logo logo__color-html" ></i><span class="align-middle">HTML</span>
+            </div>
+            <div class="col-6 col-sm-1 ">
+                <i class="fa-brands fa-css3-alt logo logo__color-css"></i>Css
+            </div>
+            <div class="col-6 col-sm-1 ">
+                <i class="fa-brands fa-sass logo logo__color-sass"></i>Sass
+            </div>
+            <div class="col-6 col-sm-1 ">
+                <i class="fa-brands fa-bootstrap logo logo__color-bs"></i><span
+                    class="align-middle ">Bootstrap</span>
+            </div>
+            <div class="col-6 col-sm-1 ">
+                <i class="fa-brands fa-git-alt logo logo__color-git"></i>Git
+            </div>
+            <div class="col-6 col-sm-1 ">
+                <i class="fa-brands fa-github logo logo__color-gh"></i>GitHub
+            </div>
+            <div class="col-6 col-sm-1 ">
+                <i class="fa-brands fa-js logo logo__color-js"></i>JavasCript
+            </div>
+            <div class="col-6 col-sm-1 ">
+                <i class="fa-brands fa-vuejs logo logo__color-vue"></i>Vue
+            </div>
+        </div>
+    </div>
+    <!-- proyectos -->
+    <div class="container" id="proyectos">
+        <div class="row">
+            <div class="col text-center mb-4">
+                <h2>Mis Proyectos</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-sm-3">
+                <img src="assets/img/meetcoffee.png" alt="" class="w-100">
+                <h4>Meet & Coffe</h4>
+            </div>
+            <div class="col-6 col-sm-3">
+                <img src="assets/img/meetcoffee.png" alt="" class="w-100">
+                <h4>Meet & Coffe</h4>
+            </div>
+            <div class="col-6 col-sm-3">
+                <img src="assets/img/meetcoffee.png" alt="" class="w-100">
+                <h4>Meet & Coffe</h4>
+            </div>
+            <div class="col-6 col-sm-3">
+                <img src="assets/img/meetcoffee.png" alt="" class="w-100">
+                <h4>Meet & Coffe</h4>
+            </div>
+        </div>
+    </div>
+    <!-- contactame -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col m-4 text-center">
+                <h2>Contactame</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 ">
+                <form class="row">
+                    <div class="col-6 mb-2">
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="col-6 ">
+                        <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                    </div>
+                    <div class="col-12 mb-2">
+                        <input type="text" class="form-control" id="correo" placeholder="Tu Email">
+                    </div>
+                    <div class="col-12 mb-2">
+                        <textarea class="form-control" id="textArea" rows="3"
+                            placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                    <div class="div mb-2">
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+
+            </div>
+            <div class="col-12 col-sm-6 ">
+                <div class="row">
+                    <div class="col-12 mb-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+56 9 35191029</span>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>anibaloso@live.com</span>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>www.linkedin.com/in/luis-anibal-rodriguez-caceres-72b54095</span>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <i class="fa-brands fa-github"></i>
+                        <span>https://github.com/anibaloso</span>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>https://www.instagram.com/anibaloso1/</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- js Bs -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
