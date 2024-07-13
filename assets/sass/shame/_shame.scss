@@ -1,5 +1,5 @@
 .logo-nav{
-    height: 40px;
+    height: 60px;
 }
 
 .logo{
@@ -28,4 +28,8 @@
     &__color-vue{
         color: $color-vue;
     }
+}
+
+.btn-primary{
+    background-color: $azul4;
 }

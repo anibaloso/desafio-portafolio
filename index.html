@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio</title>
+    <link rel="icon" href="assets/img/logo-pestaña.png">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/8e560349bd.js" crossorigin="anonymous"></script>
-
+    
     <!-- css -->
     <link rel="stylesheet" href="assets/css/main.css">
 
@@ -18,9 +19,9 @@
     <div class="container">
         <row>
             <div class="col">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
                     <div class="container-fluid">
-                        <img src="assets/img/logo.png" alt="" class="logo-nav">
+                        <img src="assets/img/zorro-larc.png" alt="" class="logo-nav me-5">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -38,7 +39,7 @@
                                     <a class="nav-link" href="#proyectos">Proyectos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#contacto">Contaacto</a>
+                                    <a class="nav-link" href="#contacto">Contacto</a>
                                 </li>
 
                             </ul>
@@ -50,10 +51,10 @@
     </div>
 
     <!-- presentacion -->
-    <div class="container">
+    <section class="container">
         <div class="row">
             <div class="col-12 col-sm-6 ">
-                <img src="assets/img/developer.svg" alt="" class="w-100">
+                <img src="assets/img/pet-larc.png" alt="" class="w-100">
             </div>
             <div class="col-12 col-sm-6  m-auto">
                 <h1>Soy Luis Rodriguez</h1>
@@ -64,7 +65,7 @@
                 <button type="button" class="btn btn-primary">Contactame</button>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- habilidades -->
     <div class="container" id="habilidades">
@@ -74,30 +75,47 @@
             </div>
         </div>
         <div class="row mt-4 mb-4 d-flex justify-content-around ">
-            <div class="col-6  col-sm-1  align-items-center justify-content-center">
-                <i class="fa-brands fa-html5 logo logo__color-html" ></i><span class="align-middle">HTML</span>
+            <div class="col-6  col-md-1  align-items-center justify-content-center">
+                <div class="col-6 d-flex align-items-center">
+                    <i class="fa-brands fa-html5 logo logo__color-html"></i>
+                    <span class="align-middle">HTML</span>
+                </div>
             </div>
-            <div class="col-6 col-sm-1 ">
-                <i class="fa-brands fa-css3-alt logo logo__color-css"></i>Css
+            <div class="col-6 col-md-1 ">
+                <div class="col-6 d-flex align-items-center">
+                <i class="fa-brands fa-css3-alt logo logo__color-css"></i>
+                <span class="align-middle">Css</span>
+                </div>
             </div>
-            <div class="col-6 col-sm-1 ">
+            <div class="col-6 col-md-1 ">
+                <div class="col-6 d-flex align-items-center">
                 <i class="fa-brands fa-sass logo logo__color-sass"></i>Sass
+                </div>
             </div>
-            <div class="col-6 col-sm-1 ">
-                <i class="fa-brands fa-bootstrap logo logo__color-bs"></i><span
-                    class="align-middle ">Bootstrap</span>
+            <div class="col-6 col-md-1 ">
+                <div class="col-6 d-flex align-items-center">
+                <i class="fa-brands fa-bootstrap logo logo__color-bs"></i><span class="align-middle ">Bootstrap</span>
             </div>
-            <div class="col-6 col-sm-1 ">
+            </div>
+            <div class="col-6 col-md-1 ">
+                <div class="col-6 d-flex align-items-center">
                 <i class="fa-brands fa-git-alt logo logo__color-git"></i>Git
+                </div>
             </div>
-            <div class="col-6 col-sm-1 ">
+            <div class="col-6 col-md-1 ">
+                <div class="col-6 d-flex align-items-center">
                 <i class="fa-brands fa-github logo logo__color-gh"></i>GitHub
+                </div>
             </div>
-            <div class="col-6 col-sm-1 ">
+            <div class="col-6 col-md-1 ">
+                <div class="col-6 d-flex align-items-center">
                 <i class="fa-brands fa-js logo logo__color-js"></i>JavasCript
+                </div>
             </div>
-            <div class="col-6 col-sm-1 ">
+            <div class="col-6 col-md-1 ">
+                <div class="col-6 d-flex align-items-center">
                 <i class="fa-brands fa-vuejs logo logo__color-vue"></i>Vue
+                </div>
             </div>
         </div>
     </div>
@@ -129,7 +147,7 @@
     </div>
     <!-- contactame -->
 
-    <div class="container">
+    <div class="container" id="contacto">
         <div class="row">
             <div class="col m-4 text-center">
                 <h2>Contactame</h2>
@@ -154,7 +172,6 @@
                     <div class="div mb-2">
                         <button type="button" class="btn btn-primary">Enviar</button>
                     </div>
-
             </div>
             <div class="col-12 col-sm-6 ">
                 <div class="row">

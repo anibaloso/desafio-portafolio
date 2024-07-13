@@ -11966,7 +11966,7 @@ textarea.form-control-lg {
   }
 }
 .logo-nav {
-  height: 40px;
+  height: 60px;
 }
 
 .logo {
@@ -11995,4 +11995,8 @@ textarea.form-control-lg {
 }
 .logo__color-vue {
   color: #3fb27e;
+}
+
+.btn-primary {
+  background-color: #0096C7;
 }/*# sourceMappingURL=main.css.map */
